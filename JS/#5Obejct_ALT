@@ -1,0 +1,4 @@
+function animal(obj){
+  let {color,name,legs} = obj;
+  return `This ${color} ${name} has ${legs} legs.`
+}
